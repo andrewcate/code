@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang = "en">
+	<div id = "total_page">
+		<head id = "header">
+			<meta charset "utf-8"/>
+				<link rel= "stylesheet" href="home.css">
+			<title>
+				Home Page
+			</title>
+			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		</head>
+		<body id = "big_body">
+			<header id = "header_1"> 
+				<p><a href= "https://www.google.com"> Welcome to the Brentwood High School Enrichment Request Center</a><p> <!-- Change link from google to domain link -->
+			</header>
+			
+		<div class="container">
+		  <ul class="nav nav-tabs">
+			<li class="active"><a data-toggle="tab" href="#allstudents">All Students</a></li>
+			<li><a data-toggle="tab" href="#rqstudents">Requested Students</a></li>
+			<li><a data-toggle="tab" href="#calendar">Calendar</a></li>
+		  </ul>
+
+		  <div class="tab-content">
+			<div id="allstudents" class="tab-pane fade in active">
+			  <h3>All Students</h3>
+			  <!-- Insert All Students Page here!!!!! -->
+			</div>
+				<div id="rqstudents" class="tab-pane fade">
+				  <h3>Requested Students</h3>
+				  <!-- Insert Requested Students Page here!!!! -->
+				</div>
+					<div id="calendar" class="tab-pane fade">
+					  <h3>Calendar</h3>
+					 <!-- Insert Calendar Page here!!!!! -->
+					</div>
+		  </div>
+		</div>
+
+			<!-- <input type="checkbox" name="student" value="Andrew">Andrew</input>
+			<p></p>
+			<input type="checkbox" name="student" value="Alexander">Alexander</input>
+			<p></p>
+			<input type="checkbox" name="student" value="Toss">Toss</input>
+			<p></p>
+			<input type="checkbox" name="student" value="Cody">Cody</input>
+			<p></p>
+			<input type="checkbox" name="student" value="Adam">Adam</input>
+			<p></p>
+			<input type="submit" value="Submit"></input> -->
+			
+			
+		</body>
+	</div>
+</html>
